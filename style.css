@@ -1,0 +1,105 @@
+body{
+    font-family: 'Itim', cursive;
+   margin: 0;
+   background-color:rgb(236, 230, 219);
+}
+nav {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: auto;
+}
+h1{
+    font-size:50px;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left:5%;
+    padding: 2%;
+}
+img{
+    width: 45%;
+    border-radius: 10px;
+}
+section{
+    height: 500px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 50%;
+    background-color: white;
+}
+.experience-area{
+    background-color:hsla(0, 0%, 83%, 0.699);
+}
+.link-button{
+    background-image:linear-gradient(45deg ,rgb(248, 92, 64), #DC143C);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius:5px;
+    color:white;
+    font-weight: 700;
+}
+.text-highlight{
+    color:#DC143C;
+}
+.name-highlight{
+    color: goldenrod;
+}
+.div-width{
+    width:20%;
+    margin-left:5%;
+    float: left;
+    padding: 2%;
+}
+h2{
+    text-align:center;
+}
+.last-section{
+    height: 40vh;
+    width: 80%;
+   background-image: url("image/pic1.png");
+   background-size: cover;
+    margin: 2% 10%;
+    border-radius: 30px;
+    position: relative;
+}
+.last-section h1{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    left: 10vh; 
+    bottom: 8vh;
+}
+.box-button{
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg ,rgb(248, 92, 64), #DC143C) ;
+    position: absolute;
+    right: 100px;
+    bottom: 16vh;
+}
+.contacted{
+    text-align: center;
+    margin-top: 10vh;
+}
+.contacted h3{
+    color: grey;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.contacted h2{
+    color: #5959ffe5;
+    font-size: 2rem;
+}
+.contacted img{
+    width: 5vh;
+    height: 5vh;
+    margin: 0  10px 40px 10px;
+}
